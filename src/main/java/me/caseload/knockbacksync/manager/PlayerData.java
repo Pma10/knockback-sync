@@ -62,7 +62,7 @@ public class PlayerData {
     public PlayerData(Player player) {
         this.player = player;
         this.user = PacketEvents.getAPI().getPlayerManager().getUser(player);
-        PING_OFFSET = KnockbackSync.getInstance().getConfig().getInt("ping_offset", 25);
+        PING_OFFSET = KnockbackSync.getInstance().getConfig().getInt("ping_offset", 50);
     }
 
     /**
