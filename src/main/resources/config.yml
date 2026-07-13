@@ -31,4 +31,4 @@ player_ineligible_message: "&c%player% is ineligible for KnockbackSync. If you b
 reload_message: "&aSuccessfully reloaded KnockbackSync config."
 
 # Read FAQ!
-ping_offset: 25
+ping_offset: 50
